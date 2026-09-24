@@ -1,0 +1,52 @@
+{
+  "schema": "ALPHA_ARCHITECTURE_V1",
+  "farm_id": 148,
+  "name": "ALPHA",
+  "status": "SCAFFOLDED_NOT_TRAINED",
+  "domain": "native-divergence-construction",
+  "role": "divergence-opening-construction",
+  "mission": "Generate structurally diverse representations and candidate directions before deep hypothesis search.",
+  "shared_base_family": "ELYSION_ELYSIUM_SHARED_BASE",
+  "runtime_changed": false,
+  "layers": [
+    {
+      "id": "L0",
+      "name": "BASE_MODEL"
+    },
+    {
+      "id": "L1",
+      "name": "ALPHA_CORE"
+    },
+    {
+      "id": "L2",
+      "name": "ADAPTERS"
+    },
+    {
+      "id": "L3",
+      "name": "MEMORY_INTERFACE"
+    },
+    {
+      "id": "L4",
+      "name": "PI_SEARCH_INTERFACE"
+    },
+    {
+      "id": "L5",
+      "name": "TOOLS_AND_FARMS"
+    },
+    {
+      "id": "L6",
+      "name": "CEREBRON_ORCHESTRATION"
+    },
+    {
+      "id": "L7",
+      "name": "AFAH_REDTEAM"
+    }
+  ],
+  "rules": [
+    "REALITY>COHERENCE",
+    "EVIDENCE>CONFIDENCE",
+    "CLAIM<=EVIDENCE",
+    "M6_NEVER_IN_TRAIN",
+    "RUNTIME_FREEZE"
+  ]
+}
