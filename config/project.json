@@ -1,0 +1,21 @@
+{
+  "schema": "ALPHA_PROJECT_V1",
+  "farm_id": 148,
+  "project_id": "MODEL-ALPHA-001",
+  "domain": "native-divergence-construction",
+  "role": "divergence-opening-construction",
+  "status": "SCAFFOLDED_NOT_TRAINED",
+  "farm_count_effect": 0,
+  "runtime_changed": false,
+  "weights_changed": false,
+  "training_authorized": false,
+  "shared_base_family": "ELYSION_ELYSIUM_SHARED_BASE",
+  "required_shared_tools": [
+    "PI-SEARCH"
+  ],
+  "rules": [
+    "M6_NEVER_IN_TRAIN",
+    "CLAIM_LE_EVIDENCE",
+    "REAL_EXECUTION_RECEIPT_REQUIRED"
+  ]
+}
