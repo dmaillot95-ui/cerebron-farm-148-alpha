@@ -44,7 +44,14 @@
       "id": "G4",
       "name": "BASELINE_RECORDED",
       "required": true,
-      "status": "READY_D3_PRIVATE_M6_V2"
+      "status": "PASS",
+      "evidence": {
+        "run_id": 36142921827,
+        "audit_sha256": "8e7cedd49c38c8f0e7a5205df6e87f91459f08abd5d7170d68d04457d70427f6",
+        "best_single_model": "Qwen/Qwen3-4B",
+        "best_single_accuracy": 0.6111111111111112,
+        "selection_decision": "NO_DUAL_CORE_PROMOTION_FROM_D3_ALONE"
+      }
     },
     {
       "id": "G5",
