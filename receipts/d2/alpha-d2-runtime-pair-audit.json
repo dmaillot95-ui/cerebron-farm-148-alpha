@@ -1,0 +1,22 @@
+{
+  "schema": "ALPHA_D2_EXACT_RUNTIME_PAIR_AUDIT_V1",
+  "run_id": 36139915737,
+  "status": "PASS",
+  "pair_count": 2,
+  "models": [
+    {
+      "model_id": "HuggingFaceTB/SmolLM3-3B",
+      "revision": "a07cc9a04f16550a088caea529712d1d335b0ac1",
+      "receipt_sha256": "fbc45b11b51144e0a0721f109fc34586cc7cf56f0f187b03748767ce61d37062"
+    },
+    {
+      "model_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "receipt_sha256": "9526745386b6f2e641627b97f9a3872e1abf1a85e9600c0bf9053d27fbed3e5f"
+    }
+  ],
+  "independent_evidence_count": 0,
+  "two_models_not_two_independent_proofs": true,
+  "claim_ceiling": "TWO_EXACT_REVISION_RUNTIME_RECEIPTS_PASS_NO_DUAL_CORE_GAIN_CLAIM",
+  "audit_sha256": "e63cb0e4ff6488d3fe85d8cfa7ee6bfcb50ae5cfa8ef12a3a16a090809af0a23"
+}
