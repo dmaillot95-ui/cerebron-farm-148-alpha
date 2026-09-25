@@ -18,7 +18,15 @@
       "id": "G1",
       "name": "M6_FROZEN_AND_HASHED",
       "required": true,
-      "status": "PENDING"
+      "status": "PASS_EXTERNAL_PRIVATE_M6_V2",
+      "evidence": {
+        "orchestrator_repo": "dmaillot95-ui/cerebron-omega-ai",
+        "m6_run_id": 36140085018,
+        "m6_sha256": "ccb4ef540bc8af61d86cee8974f773f5ee1f81614d1e71847bc7214f888f42a8",
+        "m6_receipt_sha256": "580d3c90be1bb9630e9c3cc6ecab77e78c78b8ee66c7c8ac0639932d651a1143",
+        "exact_prompts_public": false,
+        "deny_training": true
+      }
     },
     {
       "id": "G2",
@@ -36,7 +44,7 @@
       "id": "G4",
       "name": "BASELINE_RECORDED",
       "required": true,
-      "status": "PENDING"
+      "status": "READY_D3_PRIVATE_M6_V2"
     },
     {
       "id": "G5",
